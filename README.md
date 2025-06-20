@@ -1,16 +1,16 @@
-# Text Classification with Word2Vec & Averaged Embeddings 🚀
+# Text Classification with Word2Vec and Averaged Embeddings
 
 This repository demonstrates a straightforward approach to binary text classification using Word2Vec-generated embeddings and an averaged-word-vector model.
 
 ---
 
-## 🔍 Overview
+## Overview
 
 The goal is to **classify text messages (spam vs. ham)** by leveraging unsupervised word embeddings (Word2Vec), averaging them into fixed-length vectors for each message, and then training a machine learning classifier on these representations.
 
 ---
 
-## 📚 Approach
+## Approach
 
 1. **Data Preparation**  
    - Load and clean the dataset (e.g., SMS spam collection).  
@@ -32,7 +32,7 @@ The goal is to **classify text messages (spam vs. ham)** by leveraging unsupervi
 
 ---
 
-## 🛠️ Installation & Requirements
+## Installation & Requirements
 
 Install dependencies using:
 
@@ -44,7 +44,7 @@ Key libraries include: `gensim`, `numpy`, `pandas`, `scikit-learn`.
 
 ---
 
-## ▶️ Usage
+## Usage
 
 Here's how to run the full pipeline:
 
@@ -60,7 +60,7 @@ This script:
 
 ---
 
-## 📂 File Structure
+## File Structure
 
 - `main.py`: Full pipeline execution.
 - `word2vec_utils.py`: Handles training Word2Vec and vector averaging.
@@ -70,7 +70,7 @@ This script:
 
 ---
 
-## 📈 Results
+## Results
 
 Typical performance on an SMS spam dataset:
 
@@ -80,7 +80,7 @@ Precision: 0.97 | Recall: 0.99 | Accuracy: 0.97
 
 ---
 
-## 🧠 Further Enhancements
+## Further Enhancements
 
 - Use **pre‑trained embeddings** (e.g., Google News, GloVe).
 - Try **TF‑IDF‑weighted averaging** for improved representations.
@@ -89,7 +89,7 @@ Precision: 0.97 | Recall: 0.99 | Accuracy: 0.97
 
 ---
 
-## 📚 Learn More
+## Learn More
 
 - Word2Vec: skip‑gram vs. CBOW  
 - Averaged embeddings for classification  
@@ -97,6 +97,6 @@ Precision: 0.97 | Recall: 0.99 | Accuracy: 0.97
 
 ---
 
-## 📝 License
+## License
 
 This project is licensed under the **MIT License**—see `LICENSE` for details.
